@@ -9,7 +9,7 @@ import base64
 import os
 
 app = Flask(__name__)
-CORS(app, resources={r"/send-emails": {"origins": "*"}})
+CORS(app)
 
 SENDER_EMAIL = "shashankab12@gmail.com"          # Replace with your Gmail
 SENDER_PASSWORD = "sijq utqf jqea yzcw"          # Replace with your Gmail App Password
